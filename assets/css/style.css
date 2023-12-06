@@ -34,6 +34,16 @@ html,
 body {
   height: 100%;
 }
+.sell-button {
+  padding: 5px 5px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: #266bf9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+/** Sell Page**/
 
 /*************************
  Bootstrap Custom Container
