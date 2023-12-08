@@ -727,6 +727,8 @@ header .main-menu {
       -ms-flex-align: center;
           align-items: center;
   background-color: #266bf9;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 header .main-menu ul {
   display: -webkit-box;

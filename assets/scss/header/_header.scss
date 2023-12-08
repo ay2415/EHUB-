@@ -75,7 +75,7 @@ header {
 		align-items: center;
 		& > * {
 		  & + * {
-			margin-left: 15px;
+			margin-left: 0px;
 			@media #{$desktop-device} {
 			}
 			@media #{$tablet-device, $large-mobile} {
