@@ -36,7 +36,7 @@ body {
 }
 .sell-button {
   padding: 5px 5px;
-  font-size: 13px;
+  font-size: 10px;
   cursor: pointer;
   background-color: #266bf9;
   color: #fff;
@@ -2522,8 +2522,8 @@ body.offcanvas-open {
       align-self: center;
 }
 .product:hover {
-  -webkit-transform: scaleY(1.05);
-          transform: scaleY(1.05);
+  -webkit-transform: scaleY(1.00);
+          transform: scaleY(1.00);
   z-index: 1;
 }
 .product:hover .badges {
@@ -6854,12 +6854,12 @@ body.offcanvas-open {
   margin-top: 50px;
 }
 .shop-list-wrapper .product:hover {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  -webkit-transform: scaleY(.1);
+          transform: scaleY(.1);
 }
 .shop-list-wrapper .product:hover .thumb .image img {
-  -webkit-transform: scale(1.01) rotate(0deg);
-          transform: scale(1.01) rotate(0deg);
+  -webkit-transform: scale(.01) rotate(0deg);
+          transform: scale(.01) rotate(0deg);
 }
 .shop-list-wrapper .product:hover .thumb .image img:not(:last-child) {
   opacity: 0;
